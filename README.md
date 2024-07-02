@@ -1,5 +1,5 @@
 classDiagram
-    class Reprodutor_Musical{
+    class ReprodutorMusical{
       +tocar()
       +pausar()
       +selecionarMusica(String musica)
@@ -9,15 +9,15 @@ classDiagram
       +atender()
       +iniciarCorreioVoz()
     }
-    class Navegador_Internet{
+    class NavegadorInternet{
       +exibirPagina(String url)
       +adicionarNovaAba()
       +atualizarPagina()
     }
     
-    Iphone <|-- Reprodutor_Musical
-    Iphone <|-- Aparelho_Telefonico
-    Iphone <|-- Navegador_Internet
+    Iphone <|-- ReprodutorMusical
+    Iphone <|-- AparelhoTelefonico
+    Iphone <|-- NavegadorInternet
     Iphone : +Modelo
     Iphone : +Cor
     Iphone: +Memoria
