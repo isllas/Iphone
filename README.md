@@ -15,6 +15,7 @@ classDiagram
       +atualizarPagina()
     }
     
+    class iPhone {
     Iphone <|-- ReprodutorMusical
     Iphone <|-- AparelhoTelefonico
     Iphone <|-- NavegadorInternet
@@ -22,3 +23,4 @@ classDiagram
     Iphone : +Cor
     Iphone: +Memoria
     Iphone: +Armazenamento
+    }
