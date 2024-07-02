@@ -1,5 +1,4 @@
 classDiagram
-
     class Reprodutor_Musical{
       +tocar()
       +pausar()
