@@ -16,11 +16,9 @@ classDiagram
     }
     
     class iPhone {
-    Iphone <|-- ReprodutorMusical
-    Iphone <|-- AparelhoTelefonico
-    Iphone <|-- NavegadorInternet
-    Iphone : +Modelo
-    Iphone : +Cor
-    Iphone: +Memoria
-    Iphone: +Armazenamento
     }
+    Iphone --> ReprodutorMusical
+    Iphone --> AparelhoTelefonico
+    Iphone --> NavegadorInternet
+    
+    
