@@ -4,7 +4,7 @@ classDiagram
       +pausar()
       +selecionarMusica(String musica)
     }
-    class Aparelho_Telefonico{
+    class AparelhoTelefonico{
       +ligar(String numero)
       +atender()
       +iniciarCorreioVoz()
