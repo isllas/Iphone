@@ -1,5 +1,3 @@
-# Iphone
-Diagramação de modelo Iphone
 classDiagram
     Iphone <|-- Reprodutor_Musical
     Iphone <|-- Aparelho_Telefonico
@@ -23,5 +21,4 @@ classDiagram
       +exibirPagina(String url)
       +adicionarNovaAba()
       +atualizarPagina()
-      
     }
