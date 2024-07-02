@@ -1,11 +1,4 @@
 classDiagram
-    Iphone <|-- Reprodutor_Musical
-    Iphone <|-- Aparelho_Telefonico
-    Iphone <|-- Navegador_Internet
-    Iphone : +Modelo
-    Iphone : +Cor
-    Iphone: +Memoria
-    Iphone: +Armazenamento
 
     class Reprodutor_Musical{
       +tocar()
@@ -22,3 +15,11 @@ classDiagram
       +adicionarNovaAba()
       +atualizarPagina()
     }
+    
+    Iphone <|-- Reprodutor_Musical
+    Iphone <|-- Aparelho_Telefonico
+    Iphone <|-- Navegador_Internet
+    Iphone : +Modelo
+    Iphone : +Cor
+    Iphone: +Memoria
+    Iphone: +Armazenamento
